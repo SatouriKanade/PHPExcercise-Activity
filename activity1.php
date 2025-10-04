@@ -12,15 +12,16 @@
     <h1>Activity 1: Introduce Yourself</h1>
     
     <?php
-    $name = "John";
-    $age = 25;
+    $name = "Felicity Pudos";
+    $age = 20;
     $favorite_color = "blue";
+    $place = "Ambiong La Trinidad";
     
     echo "<div class='result'>";
-    echo "Hi, I'm $name, I am $age years old, and my favorite color is $favorite_color.";
+    echo "Hi, I'm $name, I am $age years old, and my favorite color is $favorite_color. I currently reside at $place with my parents and my sibling";
     echo "</div>";
     ?>
     
-    <a href="index.html" class="back-btn">Back to Activities</a>
+    <a href="index.php" class="back-btn">Back to Activities</a>
 </body>
 </html>
